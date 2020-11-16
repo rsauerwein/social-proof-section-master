@@ -118,3 +118,54 @@ section {
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  @media (min-width: 800px) {
+    main {
+        margin: 127px 165px 100px 165px;
+        display: flex;
+        flex-wrap: wrap;
+    }  
+    
+    .intro {
+        width: 50%;
+      }
+
+    .intro__heading {
+        width: 445px;
+        text-align: left;
+        font-size: 48px;
+    }
+
+    .intro__subtitle {
+        width: 445px;
+        text-align: left;
+    }
+
+    .five-stars {
+        width: 50%;
+      }
+
+    .reviews {
+        display: flex;
+        justify-content: space-between;
+        width: 1110px;
+        height: 266px;
+    }
+
+    .review {
+        width: 350px;
+        height: 234px;
+    }
+
+    .review-1 {
+        align-self: flex-start;
+    }
+    
+    .review-2 {
+        align-self: center;
+    }
+
+    .review-3 {
+        align-self: flex-end;
+    }
+  }
