@@ -119,9 +119,11 @@ section {
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .attribution a {
+    font-weight: 700;
     color: hsl(228, 45%, 44%);
   }
 
