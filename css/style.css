@@ -143,7 +143,14 @@ section {
 
     .five-stars {
         width: 50%;
+        display: flex;
+        flex-direction: column;
       }
+
+    .five-stars__item {
+        width: 445px;
+        height: 56px;
+    }
 
     .reviews {
         display: flex;
@@ -157,15 +164,17 @@ section {
         height: 234px;
     }
 
-    .review-1 {
+    
+    /* Align 5 star and review boxes */
+    .box-1 {
         align-self: flex-start;
     }
     
-    .review-2 {
+    .box-2 {
         align-self: center;
     }
 
-    .review-3 {
+    .box-3 {
         align-self: flex-end;
     }
   }
