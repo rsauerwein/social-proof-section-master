@@ -68,10 +68,51 @@ section {
     color: var(--very-dark-magenta)
 }
 
-.reviews__item {
+.review {
     border-radius: 5px;
     background-color: var(--very-dark-magenta);
     color: var(--white);
     margin-bottom: 16px;
     padding: 40px 32px 32px 32px;
 }
+
+.review__authorbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    text-align: left;
+}
+
+.review__authoravatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 23px;
+    border-radius: 50%;
+}
+
+.review__authorname {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.review__authorstatus {
+    color: var(--soft-pink);
+    font-size: 13px;
+}
+
+.review__text {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
