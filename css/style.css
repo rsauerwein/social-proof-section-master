@@ -54,6 +54,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 .five-stars__icons {
@@ -150,6 +152,12 @@ section {
     .five-stars__item {
         width: 445px;
         height: 56px;
+        flex-direction: row;
+    }
+
+    .five-stars__icons {
+        margin-right: 32px;
+        margin-left: 32px;
     }
 
     .reviews {
