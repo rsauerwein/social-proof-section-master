@@ -107,6 +107,7 @@ section {
 .review__authorstatus {
     color: var(--soft-pink);
     font-size: 13px;
+    font-weight: 400;
 }
 
 .review__text {
