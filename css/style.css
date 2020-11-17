@@ -148,11 +148,14 @@ section {
         width: 445px;
         text-align: left;
         font-size: 48px;
+        letter-spacing: -1.714px;
     }
 
     .intro__subtitle {
         width: 445px;
         text-align: left;
+        letter-spacing: 0.5px;
+        line-height: 25px;
     }
 
     .five-stars {
