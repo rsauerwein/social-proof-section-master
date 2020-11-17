@@ -27,8 +27,8 @@ body {
 }
 
 main {
+    max-width: 600px;
     margin: 80px 24px;
-    max-width: 1110px;
 }
 
 section {
@@ -134,6 +134,7 @@ section {
     }
 
     main {
+        max-width: 1110px;
         margin: 127px 165px 100px 165px;
         display: flex;
         flex-wrap: wrap;
